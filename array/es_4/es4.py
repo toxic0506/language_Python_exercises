@@ -1,3 +1,5 @@
+#DA RIVEDERE
+
 def inverti(s):
     index = 0
     last = len(s)-1
