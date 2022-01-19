@@ -1,11 +1,8 @@
-to compile: 
+to lunch the python interpret: 
 
-```$ gcc exercise.c -o exercise```
+```$ python```
 
 to execute:
 
-```$ ./exercise```
+```$ python file.py```
 
-to compile with the math.h library:
-
-```$ gcc exercise.c -o exercise -lm```
