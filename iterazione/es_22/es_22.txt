@@ -1,0 +1,2 @@
+Dato un numero N calcolare e visualizzare tutte le coppie di numeri che
+danno per somma il numero stesso.
