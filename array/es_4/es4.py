@@ -1,17 +1,11 @@
-#DA RIVEDERE
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- 
+
+#Si legga da riga di comando una stringa e la si mostri in output
+#invertita. Per fare l'inversione si implementi la funzione inverti.
 
 def inverti(s):
-    index = 0
-    last = len(s)-1
-    for st in s:
-        a = s[last]
-        s[last] = st
-        s[index] = a
-        index += 1
-        last -= 1
+    return s[len(s)::-1]
 
-
-
-s = raw_input('Inserire una stringa: ')
-inverti(s)
-print(s)
+s = input('Inserire una stringa: ')
+print(inverti(s))
