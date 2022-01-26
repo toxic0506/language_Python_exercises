@@ -7,8 +7,8 @@
 
 
 while True:
-    n1 = float(raw_input('Primo numero: '))
-    n2 = float(raw_input('Secondo numero: '))
+    n1 = float(input('Primo numero: '))
+    n2 = float(input('Secondo numero: '))
 
     if n1 <= n2:
         rapporto = n1 / n2
