@@ -13,9 +13,9 @@ nDispari = 0
 nNulli = 0
 
 while True:
-    a = float(raw_input("Inserisci il primo numero: "))
-    b = float(raw_input("Inserisci il secondo numero: "))
-    c = float(raw_input("Inserisci il terzo numero: "))
+    a = float(input("Inserisci il primo numero: "))
+    b = float(input("Inserisci il secondo numero: "))
+    c = float(input("Inserisci il terzo numero: "))
 
     if (a - b % 2 == 0):
         nPari += 1
@@ -25,8 +25,8 @@ while True:
         nDispari += 1
 
     if (a+b < c):
-        print("Differenza pari = {0}", nPari)
-        print("Differenza dispari = {0}", nDispari)
-        print("Differenza nulla = {0}", nNulli)
+        print("Differenza pari = %d" %nPari)
+        print("Differenza dispari = %d" %nDispari)
+        print("Differenza nulla = %d" %nNulli)
         break
 
