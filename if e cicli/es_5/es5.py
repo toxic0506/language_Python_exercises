@@ -17,10 +17,11 @@ while True:
     b = float(input("Inserisci il secondo numero: "))
     c = float(input("Inserisci il terzo numero: "))
 
-    if (a - b % 2 == 0):
-        nPari += 1
-    elif (a - b == 0):
+    
+    if (a - b == 0):
         nNulli += 1
+    elif (a - b % 2 == 0):
+        nPari += 1
     else:
         nDispari += 1
 
