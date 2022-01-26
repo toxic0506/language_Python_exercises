@@ -1,4 +1,4 @@
-Scrivere un programma in che dato un array di interi presi in input mostri
+Scrivere un programma che dato un array di interi presi in input mostri
 in output se l'array ha dimensione pari o dispari quando viene inserito 0.
 Esempio:
 [1,1,2,1,2,1,2,2] => è pari
