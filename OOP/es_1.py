@@ -16,6 +16,10 @@ class Voto:
 
         return voti
 
+    @staticmethod
+    def checkVoti(voti):
+        return len(voti) == 9
+
 class Studente:
     
     def __init__(self,nome,classe,voti):
@@ -25,22 +29,18 @@ class Studente:
         
     def media(self):
         somma = 0
-        
-        for voto in self.voti: somma += voto.voto
-            
+        for v in self.voti: somma += v.voto
+         
         return somma / len(self.voti)
         
-    @staticmethod
-    def checkVoti(voti):
-        return len(voti) == 9
 
     
         
    
 voti = Voto.caricaVoti("voti.txt")
 
-print(Studente.checkVoti(voti))
+print(Voto.checkVoti(voti))
 
-studente = Studente("mario", "5 F", voti)
+studente = Studente("mario", "5F", voti)
 
 print(studente.media())
