@@ -1,0 +1,9 @@
+8,storia
+9,gpoi
+8,sistemi
+3,motoria
+3,tpsi
+3,informatica
+8,italiano
+8,geografia
+2,matematica
