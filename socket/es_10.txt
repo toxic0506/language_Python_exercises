@@ -1,0 +1,1 @@
+Creare un programma client server, in cui il server resta in ascolto e riceve files dai client. I client devono preventivamente inviare il nome del file 
