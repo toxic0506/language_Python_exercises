@@ -14,7 +14,6 @@ while 1:
     filename = conn.recv(4096)
     print("ricezione di %s"%filename.decode())
     conn.send(str(os.path.isfile("./"+filename)).encode())
-    print(str(os.path.isfile("./"+filename)))
     if(os.path.isfile("./"+filename)): 
         conn.close()
         continue
