@@ -13,8 +13,8 @@
 import math
 
 while True:
-    n1 = float(raw_input("Inserisci il primo numero: "))
-    n2 = float(raw_input("Inserisci il secondo numero: "))
+    n1 = float(input("Inserisci il primo numero: "))
+    n2 = float(input("Inserisci il secondo numero: "))
 
     if n1 <= n2:
         rapporto = n2 / n1

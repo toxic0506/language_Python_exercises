@@ -11,17 +11,17 @@
 somma = 0
 letti = 0
 
-a = float(raw_input("Inserisci A: "))
-b = float(raw_input("Inserisci B: "))
+a = float(input("Inserisci A: "))
+b = float(input("Inserisci B: "))
 
 if a < b:
     while True:
-        n = int(raw_input("Inserisci un numero: "))
+        n = int(input("Inserisci un numero: "))
         letti += 1
         if n > a and n < b:
             somma += n
         else:
             media = somma / letti
-            print("Media = {0}", media)
+            print("Media = %d" %media)
             break
 
