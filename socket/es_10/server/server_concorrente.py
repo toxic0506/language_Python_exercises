@@ -34,4 +34,4 @@ while True:
       print("Ricevuto")
       conn.close()
       os.close(fd)
-      os._exit()
+      os._exit(1)
