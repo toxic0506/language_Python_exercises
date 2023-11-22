@@ -10,7 +10,6 @@
 
 import sys
 
-
 def media(arr):
     somma = 0
     for i in range(1, len(arr)):
@@ -18,5 +17,5 @@ def media(arr):
     return somma / (len(arr)-1)
 
 
-ar = sys.argv
-print("La media dei valori é: %f" % media(ar))
+arr = sys.argv
+print("La media dei valori é: %f" % media(arr))
