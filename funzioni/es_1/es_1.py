@@ -3,8 +3,10 @@
 
 # Leggere in input da tastiera due numeri maggiori di 0 e farne la somma.
 
+
 def somma(n1, n2):
     return n1 + n2
+
 
 while True:
     n1 = int(input("Inserire il primo numero (maggiore o uguale a 0): "))
