@@ -1,4 +1,4 @@
-to lunch the python interpret: 
+to launch the python interpret: 
 
 ```$ python3```
 
