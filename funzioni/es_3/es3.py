@@ -14,7 +14,6 @@
 
 import sys
 
-
 def ricerca(arr, ric):
     pos = -1
     for i in range(1, len(arr)):
@@ -23,12 +22,12 @@ def ricerca(arr, ric):
     return pos
 
 
-ar = sys.argv
-ricercato = int(input("Inserire un numero: "))
+arr = sys.argv
+ricercato = int(input("Digita il numero che vuoi cercare: "))
 
-res = ricerca(ar, ricercato)
+pos = ricerca(arr, ricercato)
 
-if(res != -1):
-    print("Il numero %d é presente nell'array in posizione %d" % (ricercato, res))
+if(pos != -1):
+    print("Numero %d trovato in posizione %d" % (ricercato, pos))
 else:
-    print("Il numero %d non é presente nell'array" % ricercato)
+    print("Numero non presente")
