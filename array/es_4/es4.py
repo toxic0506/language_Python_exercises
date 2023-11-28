@@ -1,11 +1,10 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- 
+import sys
+def inverti(corretta):
+    i=len(corretta) -1
+    str_reverse=""
+    while i>=0:
+        str_reverse = str_reverse+corretta[i]
+        i=i-1
+    return str_reverse
 
-#Si legga da riga di comando una stringa e la si mostri in output
-#invertita. Per fare l'inversione si implementi la funzione inverti.
-
-def inverti(s):
-    return s[len(s)::-1]
-
-s = input('Inserire una stringa: ')
-print(inverti(s))
+print(inverti(sys.argv[1]))
