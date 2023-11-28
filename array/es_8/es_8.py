@@ -1,17 +1,18 @@
-arr = []
-num = int(input("Inserisci numero: "))
-while num!=0:
-    arr.append(num)
-    num = int(input("Inserisci numero: "))
+numeri = []
+numero = int(input("Inserisci numero: "))
+while numero != 0:
+    numeri.append(numero)
+    numero = int(input("Inserisci numero: "))
+
 
 somma = 0
-for i in arr:
-    somma+=i
+for numero in numeri:
+    somma += numero
 
-media = somma / len(arr)
+media = somma / len(numeri)
 print(media)
 
-reverse = arr[::-1]
-for i in reverse:
-    if i>=media:
-        print(i)
+reverse = numeri[::-1]
+for numero in reverse:
+    if numero >= media:
+        print(numero)

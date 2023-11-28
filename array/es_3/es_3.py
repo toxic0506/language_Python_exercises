@@ -3,10 +3,10 @@ for i in range(10):
     numeri.append(int(input("Inserisci un numero:")))
 pari = []
 dispari = []
-for num in numeri:
-    if num%2 == 0:
-        pari.append(num)
+for numero in numeri:
+    if numero % 2 == 0:
+        pari.append(numero)
     else:
-        dispari.append(num)
+        dispari.append(numero)
 print(pari)
 print(dispari)

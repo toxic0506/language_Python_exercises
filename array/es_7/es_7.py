@@ -1,11 +1,10 @@
-arr = []
-num = input("Inserisci numero: ")
-while num!=0:
-    arr.append(num)
-    num = int(input("Inserisci numero: "))
+numeri = []
+numero = input("Inserisci numero: ")
+while numero != 0:
+    numeri.append(numero)
+    numeri = int(input("Inserisci numero: "))
 
-if len(arr)%2 == 0:
-    print("La dimensione dell'array è pari")
+if len(numeri) % 2 == 0:
+    print("Dimensione array pari")
 else:
-    print("La dimensione dell'array è dispari")
-    
+    print("Dimensione array dispari")
