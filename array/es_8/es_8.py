@@ -10,8 +10,10 @@ for numero in numeri:
     somma += numero
 
 media = somma / len(numeri)
-print(media)
+print("media: ", media)
 
+
+print("Numeri maggiori della media: ")
 reverse = numeri[::-1]
 for numero in reverse:
     if numero >= media:

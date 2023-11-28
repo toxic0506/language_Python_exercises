@@ -1,6 +1,6 @@
 numeri = []
 for i in range(10):
-    numeri.append(int(input("Inserisci un numero:")))
+    numeri.append(int(input("Inserisci un numero: ")))
 pari = []
 dispari = []
 for numero in numeri:
@@ -8,5 +8,5 @@ for numero in numeri:
         pari.append(numero)
     else:
         dispari.append(numero)
-print(pari)
-print(dispari)
+print("numeri pari: ", pari)
+print("numeri dispari: ", dispari)

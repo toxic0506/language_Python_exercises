@@ -8,6 +8,10 @@ def palindroma(stringa):
     return True
 
 
+if len(sys.argv) < 2:
+    print("argomenti errati")
+    exit()
+
 if palindroma(sys.argv[1]):
     print(sys.argv[1] + " è palindroma")
 else:

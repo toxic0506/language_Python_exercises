@@ -10,4 +10,8 @@ def inverti(stringa):
     return str_reverse
 
 
+if len(sys.argv) < 2:
+    print("argomenti errati")
+    exit()
+
 print(inverti(sys.argv[1]))
