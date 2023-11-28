@@ -3,8 +3,8 @@ presenti nella riga di comando.
 
 
 Esempio:
-$ python3 ciao a tutti gli studenti
-ciao a tutti gli studenti
+$ python3 es_5.py ciao a tutti                                                                                
+ciao a tutti
 
 
 

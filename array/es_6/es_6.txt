@@ -3,9 +3,5 @@ denominata palindroma che prenda in input una stringa e restituisca
 True se la stringa è palindroma altrimenti False
 
 esempio:
-$ python3 anna
-$ anna è una stringa palindroma
-
-esempio:
-$ python3 ciao
-$ ciao non è una stringa palindroma
+$ python3 es_6.py ANNA                                                                                      
+ANNA è palindroma
