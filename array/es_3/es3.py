@@ -1,20 +1,12 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- 
-
-#Chiedere in input 10 interi e inserirli in un array.
-#Stampare a video prima tutti i numeri pari e 
-#in seguito tutti i numeri dispari
-
-ar = []
-n = 0
-while n < 10:
-    ar.append(input('Inserisci un numero: '))
-    n = n+1
-
-for num in ar:
-    if int(num) % 2 == 0:
-        print(num)
-
-for num in ar:
-    if int(num) % 2 != 0:
-        print(num)
+numeri = []
+for i in range(10):
+    numeri.append(int(input("Inserisci un numero:")))
+pari = []
+dispari = []
+for num in numeri:
+    if num%2 == 0:
+        pari.append(num)
+    else:
+        dispari.append(num)
+print(pari)
+print(dispari)
