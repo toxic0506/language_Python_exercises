@@ -1,11 +1,11 @@
-Si scriva un programma in linguaggio C che implementi una funzione
+Si scriva un programma che implementi una funzione
 denominata palindroma che prenda in input una stringa e restituisca
-1 se la stringa è palindroma altrimenti -1
+True se la stringa è palindroma altrimenti False
 
 esempio:
-$ ./a.out anna
+$ python3 anna
 $ anna è una stringa palindroma
 
 esempio:
-$ ./a.out ciao
+$ python3 ciao
 $ ciao non è una stringa palindroma
