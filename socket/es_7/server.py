@@ -29,6 +29,7 @@ s.listen(10)
 
 while 1:
     conn, addr = s.accept()
+    print("Ricevuta connessione da: ", addr)
     
     stringa = conn.recv(1024).decode()
     strVocali, strConsonanti = prelVocCons(stringa)
@@ -38,3 +39,5 @@ while 1:
     conn.send(strVocali.encode())
     conn.send(strConsonanti.encode())
     conn.close
+    
+s.close()
