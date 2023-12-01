@@ -20,3 +20,4 @@ while 1:
     print ('Stringa reverse: ',str_reverse)
     conn.send(str_reverse.encode())
     
+s.close()

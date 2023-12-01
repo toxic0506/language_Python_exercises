@@ -8,5 +8,5 @@ $ python3 client.py testo.txt 5010
 
 Esempio con file "testo.txt" contenente "ciao":
 $ python3 server.py 5010
-$ python3 client.py testo.txt 5010
+$ python3 client.py testo.txt 192.168.2.94 5010
 Stringa ricevuta dal server: oaic

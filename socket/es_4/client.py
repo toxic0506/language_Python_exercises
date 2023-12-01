@@ -2,13 +2,12 @@ import socket
 import sys
 
 
-if len(sys.argv)<4:
-    print("Errore negli argomenti <stringa1> <stringa2> <porta>")
+if len(sys.argv)<5:
+    print("Errore negli argomenti <stringa1> <stringa2> <ip> <porta>")
     exit()
-HOST = ""    
-PORT = int(sys.argv[3])             
+PORT = int(sys.argv[4])             
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect((HOST, PORT))
+s.connect((sys.argv[3], PORT))
 string1 = sys.argv[1]
 string2 = sys.argv[2]
 s.send(string1.encode())

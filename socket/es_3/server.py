@@ -30,3 +30,5 @@ while 1:
     print ('Frequenza: ',frequenza)
     frequenza_string = str(frequenza)
     conn.send(frequenza_string.encode())
+    
+s.close()
