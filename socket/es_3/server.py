@@ -4,8 +4,8 @@ import sys
 
 def contaFrequenza(string, char):
     frequenza = 0
-    for char_tmp in string:
-        if char_tmp == char:
+    for carattere in string:
+        if carattere == char:
             frequenza+=1
     return frequenza
     

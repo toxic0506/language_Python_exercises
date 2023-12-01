@@ -1,6 +1,5 @@
 import socket
 import sys
-import os
 
 
 if len(sys.argv)<4:
