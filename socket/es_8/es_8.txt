@@ -4,7 +4,7 @@ Il server deve inviare al client la stringa senza il carattere.
 Si controllino opportunamente argc e argv sia nel client che nel server
 
 Esempio
-$ python3 server.py <server-ip> <porta>
+$ python3 server.py <porta>
 
 $ python3 client.py <server-ip> <porta> <stringa> <carattere>
 
