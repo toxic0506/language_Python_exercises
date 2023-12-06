@@ -3,7 +3,7 @@ import socket
 import sys
 
 if len(sys.argv)<2:
-    print("Errore negli argomenti <porta>")
+    print("Errore negli argomenti <porta> <argv[n]")
     exit()
     
 HOST = ""              
