@@ -9,8 +9,8 @@ def contaFrequenza(string, char):
             frequenza+=1
     return frequenza
     
-if len(sys.argv)<2:
-    print("Errore negli argomenti <porta>")
+if len(sys.argv)<3:
+    print("Errore negli argomenti <ip> <porta> <argv[n]")
     exit()
     
 HOST = ""              
