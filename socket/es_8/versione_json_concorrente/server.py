@@ -17,7 +17,6 @@ while 1:
     print("\nRicevuta connessione da: ", addr)
 
     if os.fork() == 0:
-
         s.close()
 
         stringa_json = conn.recv(1024).decode()
